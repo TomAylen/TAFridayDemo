@@ -9,6 +9,6 @@ A simple Flask based python application running in a Docker container. The custo
 - Customize the docker image in this repo and publish to your docker hub or ACR repository
 - Create a [Web App for containers](https://portal.azure.com/#create/microsoft.appsvclinux)
 - Configure your web app to custom image  
-- Browse your site 
+- Browse your site. 
  
 
