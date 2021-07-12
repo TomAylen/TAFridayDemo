@@ -1238,6 +1238,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
         this.options.placement.call(this, $tip[0], this.$element[0]) :
         this.options.placement
 
+      // sgignore next_line
       var autoToken = /\s?auto?\s?/i
       var autoPlace = autoToken.test(placement)
       if (autoPlace) placement = placement.replace(autoToken, '') || 'top'
